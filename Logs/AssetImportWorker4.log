@@ -1,0 +1,1553 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.43f1 (85497d293fa1) revision 8735101'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15996 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Unity/Project/Cours_XRI
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53783
+Successfully changed project path to: D:/Unity/Project/Cours_XRI
+D:/Unity/Project/Cours_XRI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36768]  Target information:
+
+Player connection [36768]  * "[IP] 192.168.16.1 [Port] 0 [Flags] 2 [Guid] 1420314942 [EditorId] 1420314942 [Version] 1048832 [Id] WindowsEditor(7,Aerlaw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36768]  * "[IP] 192.168.72.1 [Port] 0 [Flags] 2 [Guid] 1420314942 [EditorId] 1420314942 [Version] 1048832 [Id] WindowsEditor(7,Aerlaw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36768]  * "[IP] 172.16.0.113 [Port] 0 [Flags] 2 [Guid] 1420314942 [EditorId] 1420314942 [Version] 1048832 [Id] WindowsEditor(7,Aerlaw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36768] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36768] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 1481.94 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Project/Cours_XRI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     7998 MB
+    Driver:   30.0.101.2079
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.43f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008433 seconds.
+- Loaded All Assemblies, in 13.704 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 693 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.207 seconds
+Domain Reload Profiling: 14911ms
+	BeginReloadAssembly (12087ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (396ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (12086ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1108ms)
+			TypeCache.Refresh (1107ms)
+				TypeCache.ScanAssembly (1089ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (839ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.753 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.176 seconds
+Domain Reload Profiling: 3926ms
+	BeginReloadAssembly (379ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1241ms)
+		LoadAssemblies (873ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (596ms)
+			TypeCache.Refresh (461ms)
+				TypeCache.ScanAssembly (413ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (93ms)
+	FinalizeReload (2177ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (1124ms)
+			ProcessInitializeOnLoadMethodAttributes (296ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 47.53 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6274 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (2.4 MB). Loaded Objects now: 6726.
+Memory consumption went from 239.8 MB to 237.5 MB.
+Total: 7.698200 ms (FindLiveObjects: 0.519500 ms CreateObjectMapping: 0.847000 ms MarkObjects: 5.502400 ms  DeleteObjects: 0.827700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1712521.303026 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/ind_21_st_builds/five_block_2_showcase_shop_class_1_sm.png
+  artifactKey: Guid(8e7026f5a0088a7479c66d4317194015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/ind_21_st_builds/five_block_2_showcase_shop_class_1_sm.png using Guid(8e7026f5a0088a7479c66d4317194015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '478e304423da1faf071be8977514a5c3') in 0.426385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/ind_21_st_builds/five_block_included_parts_class_1_sm.png
+  artifactKey: Guid(2afe7a07f80f9a54c9c068d8b3844ee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/ind_21_st_builds/five_block_included_parts_class_1_sm.png using Guid(2afe7a07f80f9a54c9c068d8b3844ee8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0bf8ce2ac2f0a80a6b970004930ccb9c') in 0.105026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_three_build_8/ind_build_wall_sm.png
+  artifactKey: Guid(cb30e834d202e7846a72d0826da9c1fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_three_build_8/ind_build_wall_sm.png using Guid(cb30e834d202e7846a72d0826da9c1fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7c481cf55962385151140b83aecd0db2') in 0.111867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016103 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_redlight_build_6/ind_build_6_showcase_front_3_class_1_sm.png
+  artifactKey: Guid(68caff333c3903446bbcf91cf479a054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_redlight_build_6/ind_build_6_showcase_front_3_class_1_sm.png using Guid(68caff333c3903446bbcf91cf479a054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91c38108c316356a8e2eee7de4eca756') in 0.082256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/props/street/st_payphone/lod_st_payphone_class_1_sm.png
+  artifactKey: Guid(aba08f83332341c428509654a64e664b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/props/street/st_payphone/lod_st_payphone_class_1_sm.png using Guid(aba08f83332341c428509654a64e664b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a04e7d41b41103bc2d12d17bbe069d3c') in 0.063014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/props/rooftop/rt_ventsystem
+  artifactKey: Guid(4e0e6c0b8121ed84499aa02794df481e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/props/rooftop/rt_ventsystem using Guid(4e0e6c0b8121ed84499aa02794df481e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8153cb7148a0109235f6429fffcb1e2b') in 0.018352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/props/rooftop/rt_ventsystem/lod_rt_ventsystem_class_1_sm.png
+  artifactKey: Guid(8654ff33cee7a2342a0eee47a6e1b904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/props/rooftop/rt_ventsystem/lod_rt_ventsystem_class_1_sm.png using Guid(8654ff33cee7a2342a0eee47a6e1b904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ab63bcb6032ac64321d43a2841b62f0') in 0.084107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/street/st_billboards/billboard_detals_class_1_bc.mat
+  artifactKey: Guid(b75428b4d9ef710458620c4c179565d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/street/st_billboards/billboard_detals_class_1_bc.mat using Guid(b75428b4d9ef710458620c4c179565d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '573c9a7f439fdcafc76164a4c0801991') in 0.110286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/default_city_pack_1_industrial/demo/demo_1
+  artifactKey: Guid(1c0782697a1485243a4eb79c633e40ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/demo/demo_1 using Guid(1c0782697a1485243a4eb79c633e40ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95db52964da7c45e831501d6cece3790') in 0.029274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rt_ventsystem/rt_wallvent_1_class_1_bc.mat
+  artifactKey: Guid(282ddabdd99a05443b4d62c902fc6c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rt_ventsystem/rt_wallvent_1_class_1_bc.mat using Guid(282ddabdd99a05443b4d62c902fc6c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '63edac48e9ef50190d99e853fbf95f59') in 0.084831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_redlight_street/ind_three_build_8/ind_three_build_fence_bc.mat
+  artifactKey: Guid(ea4d2e4198853be4e802eed8efb189ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_redlight_street/ind_three_build_8/ind_three_build_fence_bc.mat using Guid(ea4d2e4198853be4e802eed8efb189ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d3eeb9904362d8df0cae0fb27dc2f26') in 0.108191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/props/street/st_rubbish/st_cardboard_box_pile_1_class_1_sm.png
+  artifactKey: Guid(916b63b183e17b544879c2412fb7c0dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/props/street/st_rubbish/st_cardboard_box_pile_1_class_1_sm.png using Guid(916b63b183e17b544879c2412fb7c0dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4bb47cee1dd0039dde51402f7f8fba25') in 0.167166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/props/street/st_billboards/billboard_three_poster_1_class_1_sm.png
+  artifactKey: Guid(570d0c6346cd8a244a65189eb285df9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/props/street/st_billboards/billboard_three_poster_1_class_1_sm.png using Guid(570d0c6346cd8a244a65189eb285df9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40a1d7e3f11fbef63502308f73bb5f24') in 0.124359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015898 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_21_st_builds
+  artifactKey: Guid(f00ac1eff6b1a4d408af342274995ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_21_st_builds using Guid(f00ac1eff6b1a4d408af342274995ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '38b49ea145e9c7e8758cf9f3906ac207') in 0.021688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/default_city_pack_1_industrial/documentation/ReadMe_URP.pdf
+  artifactKey: Guid(0292765ff527f2943bf26f8274b2fffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/documentation/ReadMe_URP.pdf using Guid(0292765ff527f2943bf26f8274b2fffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c4c1b1c9bf60ab22aade2e7dfa81ad0') in 0.025701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_1_mainten_bc.mat
+  artifactKey: Guid(1dc5e6fdc3d79914da5b96ccfbeae1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_blk_mainten/lod_blk_1_mainten_bc.mat using Guid(1dc5e6fdc3d79914da5b96ccfbeae1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce426ea55eac665deb11f7765d2feb71') in 0.054418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/city_decals/ct_graffiti/ct_graffiti_class_1_a.png
+  artifactKey: Guid(be29607202f5d484db03ac752c6f41bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/city_decals/ct_graffiti/ct_graffiti_class_1_a.png using Guid(be29607202f5d484db03ac752c6f41bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74af0086b952b310228ab516d91486a9') in 0.302250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rt_aircon/rt_aircon_3_patch_1_bc.mat
+  artifactKey: Guid(8c617b1bcd3f03e47b25b9e33ee5e390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/rooftop/rt_aircon/rt_aircon_3_patch_1_bc.mat using Guid(8c617b1bcd3f03e47b25b9e33ee5e390) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94077bdb536854c9b11ec4f1e95a3609') in 0.120215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_redlight_build_2/ind_build_2_decals_sm.png
+  artifactKey: Guid(82d2e837abd1cf5408562ecabb369a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_redlight_build_2/ind_build_2_decals_sm.png using Guid(82d2e837abd1cf5408562ecabb369a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '85fcb73121edf1dfe6de070add589325') in 0.181670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_redlight_build_6/ind_build_6_decals_sm.png
+  artifactKey: Guid(ad6fa5f146d5ffb42affa37033465a27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/ind_redlight_street/ind_redlight_build_6/ind_build_6_decals_sm.png using Guid(ad6fa5f146d5ffb42affa37033465a27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd2c8b019c92833f838de564bf283119') in 0.091827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_redlight_street/ind_three_build_8/ind_three_build_8_em.mat
+  artifactKey: Guid(5a0bcf2296c820940bb67240474419a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_redlight_street/ind_three_build_8/ind_three_build_8_em.mat using Guid(5a0bcf2296c820940bb67240474419a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec4f3b3e03f95a03edb31c90bf63329d') in 0.050054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_redlight_street/ind_redlight_build_4/ind_build_4_cornice_facade_class_1_bc.mat
+  artifactKey: Guid(0976ecd30cfb820489638096592b45af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_redlight_street/ind_redlight_build_4/ind_build_4_cornice_facade_class_1_bc.mat using Guid(0976ecd30cfb820489638096592b45af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5bbb36b32c2cd09fd72e2c3096fed180') in 0.103795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_21_st_builds/five_block_included_parts_class_1_bc.mat
+  artifactKey: Guid(cb8737aa738878e479f2d444f7cd7c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_21_st_builds/five_block_included_parts_class_1_bc.mat using Guid(cb8737aa738878e479f2d444f7cd7c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '21fddbf7f8b77b3230121d8851f6a04b') in 0.096093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/hwr_street/df_ind_build_hwr_office_05/build_hwr_office_05_showcase_class_1_sm.png
+  artifactKey: Guid(64544df979875e64893f8d25fed8cda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/hwr_street/df_ind_build_hwr_office_05/build_hwr_office_05_showcase_class_1_sm.png using Guid(64544df979875e64893f8d25fed8cda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ed222475fff1a9a2f968bcf58f613e5') in 0.124357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/roads/Materials
+  artifactKey: Guid(5a52ad08a37ac0a4684dadf1b5e7593f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/roads/Materials using Guid(5a52ad08a37ac0a4684dadf1b5e7593f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ffcad7a1d96e5664deb67361de8faf0b') in 0.025937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Simple city plain/Material & Texture/Material mesh/Materials
+  artifactKey: Guid(9838ff5d8a13a8941a32f0d1e5085725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple city plain/Material & Texture/Material mesh/Materials using Guid(9838ff5d8a13a8941a32f0d1e5085725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '898cf0a8c6b498331e4ab1a11cde1e01') in 0.025990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.050438 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkAmbientOcclusionMap.png
+  artifactKey: Guid(a482952b6499ace4685e68386d15b528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark/WoodBarkAmbientOcclusionMap.png using Guid(a482952b6499ace4685e68386d15b528) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '914680dc65c4b04574efcc9a7b54730c') in 0.359689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAmbientOcclusionMap.png
+  artifactKey: Guid(59046b4c6de3b004e916df1ca8a922b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/ShortGrass/ShortGrassAmbientOcclusionMap.png using Guid(59046b4c6de3b004e916df1ca8a922b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca87b12d48d6ce63930acb4c428f60ac') in 0.367707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019029 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone
+  artifactKey: Guid(e2aba035f22acf04cbf8345e4dd170c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone using Guid(e2aba035f22acf04cbf8345e4dd170c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '23ee47c5f5416c2e005ccc9f294badb0') in 0.044475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003727 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtSpecularMap.png
+  artifactKey: Guid(0516a1f1f1c55ea4a802fa9bf43e9693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtSpecularMap.png using Guid(0516a1f1f1c55ea4a802fa9bf43e9693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea0b020d9c3c73089272fb322e3bf764') in 0.465885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneDisplacementMap.png
+  artifactKey: Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/SmoothStone/SmoothStoneDisplacementMap.png using Guid(8ae1682fb301df2489302f8046f2822b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'acfbee84104a630aae91f0ccd0b81f0f') in 0.487171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark
+  artifactKey: Guid(0451b18fbf2e07d40b920602ade33f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WoodBark using Guid(0451b18fbf2e07d40b920602ade33f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bbb76329e89bfa8ce74b8667b5e3777') in 0.021329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/ShortGrass.mat
+  artifactKey: Guid(a76302828de7f0e49b696941f3753e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/ShortGrass.mat using Guid(a76302828de7f0e49b696941f3753e16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ec48a08fb9d0d704aa85cee5e5ddbb7') in 3.921574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass
+  artifactKey: Guid(540d7fbc775f22147ac8478f945ac0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass using Guid(540d7fbc775f22147ac8478f945ac0c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '168a1ea3569514b6642e021895aa04e2') in 0.072478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018870 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAlbedo.png
+  artifactKey: Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/WildGrass/WildGrassAlbedo.png using Guid(5dc6d075b21b95449ace215a6cf2f787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a3ae5b62a7bec83e8ef83a598662d66') in 0.535233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodPlanks.mat
+  artifactKey: Guid(a0cea2e6c1c5bb24f9b3566064937a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Materials/WoodPlanks.mat using Guid(a0cea2e6c1c5bb24f9b3566064937a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b91746a3d8d4a558a64872b89c01dfc9') in 1.476334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAlbedo.png
+  artifactKey: Guid(c608a6f3f4e673c409f2436b5172576a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/DryDirt/DryDirtAlbedo.png using Guid(c608a6f3f4e673c409f2436b5172576a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e9eccd899f0a9841c4d529b396ce4e5') in 0.432440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(9a680345e3e723e4ca12b26822c3f21c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Demo/Table Demo/Lightmap-0_comp_dir.png using Guid(9a680345e3e723e4ca12b26822c3f21c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd68e97a30749855c0c48de5a10bcfe5f') in 0.106208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.089309 seconds.
+  path: Assets/MASH Virtual/Table/Prefab/Table_New.prefab
+  artifactKey: Guid(7d72879ba54738d42887f83754ca3b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Prefab/Table_New.prefab using Guid(7d72879ba54738d42887f83754ca3b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef8b6e13463b506371abecdb83c0b3a5') in 0.116877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(3714ff6559263914fbcfda013c1c8cae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Demo/Table Demo/ReflectionProbe-0.exr using Guid(3714ff6559263914fbcfda013c1c8cae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6eb607a35d6a7cb3657be35bfcf50269') in 0.139716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/MASH Virtual/Table/Texutre
+  artifactKey: Guid(712bf546504e687458259abcacd249f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Texutre using Guid(712bf546504e687458259abcacd249f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e01fc1c6a604f951873f37bf9c34eca4') in 0.033422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/MASH Virtual
+  artifactKey: Guid(57d60ee5f8b5d40f88fb995fbb528d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual using Guid(57d60ee5f8b5d40f88fb995fbb528d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f9db089509eeed8415b44bd112ede52') in 0.019363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_AlbedoTransparency.png
+  artifactKey: Guid(8f68c1c9776b78144a82796fbfa3c013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_AlbedoTransparency.png using Guid(8f68c1c9776b78144a82796fbfa3c013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5922156c38e16cbedfcee5c4d8ed4762') in 0.176097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d286e351e8011b9478ed2a02875681ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Demo/Table Demo/Lightmap-0_comp_light.exr using Guid(d286e351e8011b9478ed2a02875681ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '062fcf0c21949b2e066747d0a4e41062') in 0.055082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/MASH Virtual/Table
+  artifactKey: Guid(939b062c349685943a09913307a0efbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table using Guid(939b062c349685943a09913307a0efbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c36597d4a1681e54a3490075d88b68e8') in 0.021102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/textures/city/roads/Materials/ct_road_cracks_decals_1_sm.mat
+  artifactKey: Guid(e63168560950e4040b886dbaf3b51d90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/textures/city/roads/Materials/ct_road_cracks_decals_1_sm.mat using Guid(e63168560950e4040b886dbaf3b51d90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a46ffe27f0de69b5056000d03a85e27c') in 0.154772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_Normal.png
+  artifactKey: Guid(27550fee6799f8a4bb46e907514ace65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_Normal.png using Guid(27550fee6799f8a4bb46e907514ace65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '922bba6dbb39538150859a52c3b898d2') in 0.167462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scripts/TrashbinYellow.controller
+  artifactKey: Guid(b7decf4ee8b992d4297143a0dea34a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/TrashbinYellow.controller using Guid(b7decf4ee8b992d4297143a0dea34a9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2e6b5c6e8638c10bae4cf36190eefc1') in 0.076140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MASH Virtual/Table/Prefab
+  artifactKey: Guid(ef33f687ebe0519408417a45f300965d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Prefab using Guid(ef33f687ebe0519408417a45f300965d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ae2df854db86cfbd965c68753b495bd') in 0.020228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MASH Virtual/Table/Material
+  artifactKey: Guid(2384be8930896eb4ba08eeb7aa206bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Material using Guid(2384be8930896eb4ba08eeb7aa206bab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '24783c59e035809869c494e2880a857a') in 0.022169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/MASH Virtual/Table/Post Processing/Table.asset
+  artifactKey: Guid(b2f7f75f5ef850c4a946e2c51bbcb9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Table/Post Processing/Table.asset using Guid(b2f7f75f5ef850c4a946e2c51bbcb9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '829b7f25cdc3c9e726060c9b2c7d6ded') in 0.067712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/wrong.mp3
+  artifactKey: Guid(987dff3909559ce44988cb79efff567f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/wrong.mp3 using Guid(987dff3909559ce44988cb79efff567f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d5675feb244b2f48f6e8017fffe1230') in 0.078999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MASH Virtual/Demo/Table Demo
+  artifactKey: Guid(7aa022a03073d25448504586d0202ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MASH Virtual/Demo/Table Demo using Guid(7aa022a03073d25448504586d0202ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f0e8f82bfeb9eb3a884a268efda8cfc') in 0.017582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneAlbedo.png
+  artifactKey: Guid(e85c81f27fc29ff488756d133930122a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaded Spectrum/Free Realistic Outdoor Materials/Textures/RoughStone/RoughStoneAlbedo.png using Guid(e85c81f27fc29ff488756d133930122a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8d52dc6b4d012ec3b627afea25eed4d') in 0.276684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/textures/Paper/LitteredPaper/PaperTexture_group02_N.png
+  artifactKey: Guid(6cba1a85a303ca34db5cfcb29ebc7b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/textures/Paper/LitteredPaper/PaperTexture_group02_N.png using Guid(6cba1a85a303ca34db5cfcb29ebc7b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55dab734e495c77c8c0a638a92b80810') in 0.049439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/URP_WasteOvergrowth_SA
+  artifactKey: Guid(260a781adcab6c74e915b2437959cf20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA using Guid(260a781adcab6c74e915b2437959cf20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2cec273e7caceb0af89503cff532ae62') in 0.026475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/textures/Paper/tex_Paper_flat02_N.png
+  artifactKey: Guid(9c3feafcf36676c42837a04c12466254) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/textures/Paper/tex_Paper_flat02_N.png using Guid(9c3feafcf36676c42837a04c12466254) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f2d5c8956509805c7a96702b86dae062') in 0.032584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016548 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Bottles/Crushed
+  artifactKey: Guid(24f1bb9f66a459943a265e6a270e1b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Bottles/Crushed using Guid(24f1bb9f66a459943a265e6a270e1b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33fbaa74dfb0441cb16b425c1d30dba2') in 0.021612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Prefabs/Bottles/Prefab_SodaCan_1.prefab
+  artifactKey: Guid(28487c63b217ac342935299e9014381e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/Prefabs/Bottles/Prefab_SodaCan_1.prefab using Guid(28487c63b217ac342935299e9014381e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e11c9c15ee66dc04cce2770dcadaab2') in 0.056894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/textures/Stain
+  artifactKey: Guid(a5683fcd43aaa214dafa3b080eed4f3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/textures/Stain using Guid(a5683fcd43aaa214dafa3b080eed4f3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '37b8187447d0f68ad164fb6f18b589fe') in 0.021559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/textures/FoodCOntainer
+  artifactKey: Guid(a4540f2f73e7df945bff69950eb7ad0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/textures/FoodCOntainer using Guid(a4540f2f73e7df945bff69950eb7ad0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e568e89b5ef63e7be0f8f7694aeb4fde') in 0.026262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Simple city plain/Material & Texture/Colors_buildings/B2.mat
+  artifactKey: Guid(792fa418de0281e4bab622f9a60c88b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple city plain/Material & Texture/Colors_buildings/B2.mat using Guid(792fa418de0281e4bab622f9a60c88b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2bc3674cdb9343213673d4220457532a') in 0.036722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004290 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinGreen.mat
+  artifactKey: Guid(9b519de37e5024c42a6d0e9986b50201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Materials/TrashbinGreen.mat using Guid(9b519de37e5024c42a6d0e9986b50201) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da24b6b739579af6b4e040b8e67da4a2') in 0.161399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Simple city plain/Mesh/Materials/Window_frames.001.mat
+  artifactKey: Guid(33157edd4c0f1fb49b7af953f1371a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple city plain/Mesh/Materials/Window_frames.001.mat using Guid(33157edd4c0f1fb49b7af953f1371a2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2653abb02c0f3f7e243bb6289002901d') in 0.052364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_SodaBottle_L.fbx
+  artifactKey: Guid(a88739dd101d5524aaa6d69ac754f807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/Mesh/Bottle/Mesh_SodaBottle_L.fbx using Guid(a88739dd101d5524aaa6d69ac754f807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '858e83455eafd61ce90462f0bb653e2e') in 0.062869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/city/ind_21_st_builds/five_block_winlight_em.mat
+  artifactKey: Guid(cb8ae8d842f34c94d89f7e4da1186928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/city/ind_21_st_builds/five_block_winlight_em.mat using Guid(cb8ae8d842f34c94d89f7e4da1186928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '663b17b286fac52e4d994ffc761dcfa2') in 0.056703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple city plain/Prefabs/Sideway Prefab.prefab
+  artifactKey: Guid(a9da80f587bbf9046aefc4a4cfb8a7fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple city plain/Prefabs/Sideway Prefab.prefab using Guid(a9da80f587bbf9046aefc4a4cfb8a7fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef6900254a4b050dc4fa6768f815a788') in 0.040986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/URP_WasteOvergrowth_SA/textures/Stain/untitled_Material_Normal.png
+  artifactKey: Guid(3809bb2ca93103f4eb837a4849c62663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP_WasteOvergrowth_SA/textures/Stain/untitled_Material_Normal.png using Guid(3809bb2ca93103f4eb837a4849c62663) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a29799d4d5eadbf8901ae65a37f716e8') in 0.054972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/default_city_pack_1_industrial/assets/materials/props/street/st_bins/dumpster_decals_class_1_a.mat
+  artifactKey: Guid(8f75c78691ddf8140a92f0c749aeae7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/default_city_pack_1_industrial/assets/materials/props/street/st_bins/dumpster_decals_class_1_a.mat using Guid(8f75c78691ddf8140a92f0c749aeae7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c40f7024548a59b1a08a88de4f84ab77') in 0.158936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.229115 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7662307626ffcb220425ede39c10d408') in 0.024196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 83.698467 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2bd97bfe4fe3a386826c52c76f615536') in 0.019938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 172.097210 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75207eaa8bd3c73a92a1174dace28e85') in 0.000912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.45 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 9.525700 ms (FindLiveObjects: 0.437000 ms CreateObjectMapping: 0.250400 ms MarkObjects: 8.350200 ms  DeleteObjects: 0.485200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.109213 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6cbd79067fb4bd727cd5f78738db8327') in 0.063468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.75 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.294600 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.249600 ms MarkObjects: 4.354700 ms  DeleteObjects: 0.309200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 106.903931 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0523139433b28727425eb0a3f420db5f') in 0.065358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 78.053699 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb932c4e3f61a75dac4f27e51acb02b6') in 0.027958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.34 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.119600 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.221600 ms MarkObjects: 4.211700 ms  DeleteObjects: 0.324000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.648358 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ed89117c0c935d82f23aaefee63d0a72') in 0.026263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.96 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.256900 ms (FindLiveObjects: 0.352300 ms CreateObjectMapping: 0.233700 ms MarkObjects: 4.363500 ms  DeleteObjects: 0.305900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.64 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.526700 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.232500 ms MarkObjects: 4.597800 ms  DeleteObjects: 0.302600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 144.915347 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a945941a6ad556ae083d86a85a3d30eb') in 0.037326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.37 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 4.683600 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.225800 ms MarkObjects: 3.794800 ms  DeleteObjects: 0.289400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.711486 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7b940b8fc4cd6fe763a4e3bac0445579') in 0.045341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.46 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.278400 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.237300 ms MarkObjects: 4.372400 ms  DeleteObjects: 0.294200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 131.646072 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2bd18832f0ab1bd5e41acf7b801440a5') in 0.022516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 49.322573 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '51d4cb849d805ab4a49c652327873182') in 0.032839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.186159 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aff762a5c4711587261d7d9da1281e9a') in 0.019834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.52 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.408000 ms (FindLiveObjects: 0.363000 ms CreateObjectMapping: 0.221100 ms MarkObjects: 4.486600 ms  DeleteObjects: 0.336200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.35 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.508400 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.235100 ms MarkObjects: 4.578500 ms  DeleteObjects: 0.326500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 209.894577 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0576a917ac5656dbbcbd2f1d647fff9') in 0.039967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 234.396767 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8953c82fffc040c572c8ef2f8c0f06a3') in 0.035010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.859556 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '63ce709bc2528b61ccadb4174aaa1930') in 0.000647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 111.563935 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '599d5d121869ef285a9b700b32a9499f') in 0.022582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 66.297012 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '86ade79a02cfe37396aa511bf4caeca6') in 0.019892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 63.004476 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd241df7276f1b155d03ecabcafde75e') in 0.023132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.69 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.407900 ms (FindLiveObjects: 0.368400 ms CreateObjectMapping: 0.219900 ms MarkObjects: 4.504600 ms  DeleteObjects: 0.313500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195.766938 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f89fef2a8d3e653640f88bc9f72c13dc') in 0.042615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 58.406472 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5804516b1c2c27496041a46a0a0c4b40') in 0.016909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.373197 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec68b919038a15d68b1d8c2530a76503') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.49 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.212500 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.232900 ms MarkObjects: 4.318500 ms  DeleteObjects: 0.285500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104.016079 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7467772cd1ad969618bb47bbe0396733') in 0.049878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 166.106573 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ff6d6fa8dd8c3f3b8fc8d4ee1b6f2c1') in 0.023412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.031718 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ec37000ec04030d18b406d9776ff3c5') in 0.000615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 149.378263 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '013406e68a81c5aa2f509562aa5e7f0c') in 0.023435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.424561 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9da607ce4553778b14dfff91def79c73') in 0.000801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 121.190122 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04b4bf4edd8ae1691beabc6575a954db') in 0.040358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.01 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 9.293500 ms (FindLiveObjects: 0.408700 ms CreateObjectMapping: 0.216500 ms MarkObjects: 8.360000 ms  DeleteObjects: 0.307000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 190.837771 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eeb6c51e2625d794fb2bf12038865ee0') in 0.034202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 37.671223 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a1f7f2c52609cf91eb4ea746f25b7147') in 0.033294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 177.823579 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5f062d83b280f081247741ae5a4a4a1') in 0.021829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.486560 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bd0f009f4a3080be4ece2f990c7ab0d') in 0.020623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.55 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.214500 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.222500 ms MarkObjects: 4.304500 ms  DeleteObjects: 0.317900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96.475488 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08e19fa262185520996807a76137ca96') in 0.036149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.29 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6726.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.504600 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.286000 ms MarkObjects: 4.487000 ms  DeleteObjects: 0.306700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 524.639261 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c2ea29ce5e59c21841c9d3cb3ec3ba9') in 0.034320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 186.367957 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinBlue.prefab
+  artifactKey: Guid(3773d0ae256dc594ea12defa93a67c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinBlue.prefab using Guid(3773d0ae256dc594ea12defa93a67c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b17ff773669e86207720a6688ee9ba0') in 0.152162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 10.101934 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinGreen.prefab
+  artifactKey: Guid(1a570f403ac9fbc439ef2f8f8fbaed19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinGreen.prefab using Guid(1a570f403ac9fbc439ef2f8f8fbaed19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b4ba50b58ba19e96057e1eae884cf21') in 0.036722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 14.138195 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinYellow.prefab
+  artifactKey: Guid(8d1264d958f92714c81f3d43e933b4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinYellow.prefab using Guid(8d1264d958f92714c81f3d43e933b4b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48716ca029336e4c5e21214132468c9e') in 0.035803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 61.583117 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '560672c315e2143bb6aac4d4b7940fca') in 0.032490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.92 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6727.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.637400 ms (FindLiveObjects: 0.435900 ms CreateObjectMapping: 0.258300 ms MarkObjects: 4.602000 ms  DeleteObjects: 0.339700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176.748317 seconds.
+  path: Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinGreen.prefab
+  artifactKey: Guid(1a570f403ac9fbc439ef2f8f8fbaed19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SpaceZeta_PlasticTrashBins/Prefabs/TrashbinGreen.prefab using Guid(1a570f403ac9fbc439ef2f8f8fbaed19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb462b24d8d3563e6b6eb561ce6d431b') in 0.034875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 108.493165 seconds.
+  path: Assets/Scenes/Gestion de Déchets.unity
+  artifactKey: Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Gestion de Déchets.unity using Guid(d316f7ff55123b54eb3ef80245b0d6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '409fc43e431a29c3c6dc51c994c5557c') in 0.024153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.83 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (2.3 MB). Loaded Objects now: 6727.
+Memory consumption went from 113.5 MB to 111.2 MB.
+Total: 5.650200 ms (FindLiveObjects: 0.390800 ms CreateObjectMapping: 0.232800 ms MarkObjects: 4.534100 ms  DeleteObjects: 0.490100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 3ead1caaecf1c488f20bcfeb224b6af5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
